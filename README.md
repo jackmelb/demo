@@ -18,7 +18,7 @@ For the sake of time limitations, we use tables in this instance to illustrate t
 i.e. 
    1.1 A SPA application that Auth0 provided out of the box to simulate front end web applications. (I am able to get access token from SPA in browser and call APIs in this project)
    1.2 Machine to Machine application, so that we can utilize client_credentials grant type for our Rest assured integration tests
-2. Additional authorization is conduced by checking if user has correct role as well as if user has sufficient permission for a given account.(An authenticated user must not able to access someone else's account) 
+2. Additional authorization is conducted by checking if user has correct role as well as if user has sufficient permission for a given account.(An authenticated user must not able to access someone else's account) 
 
 ### API documentation
 1. Swagger UI can be accessed via http://localhost:8080/swagger-ui/index.html#/ 
@@ -26,7 +26,7 @@ i.e.
 ### Testing
 1. Rest assured integration test built for account and transaction end points in AccountControllerIntegrationTest. These tests cover
 Authentication test, authorization test and integration test with pagination etc.
-2. Database integration test with real postgres database via test containers with Docker in AccountRepositoryTestContainerIntegrationTest
+2. Database integration test with real postgres database via test containers with Docker in AccountRepositoryTestContainerIntegrationTest.
 These tests making sure we could connect to database and able to save and retrieve data as per our expectations
 3. Some unit tests to test data mappings etc
 4. In real projects, we typically having code coverage around 90% -100%. Due to time constrains, only the most important tests were written in this project
