@@ -1,4 +1,4 @@
-# To ANZ team:
+# Design notes:
 
 ### A quick mini project with a couple of hours work that aiming to build 2 APIs as per requirements
 1. View account list for a given user
